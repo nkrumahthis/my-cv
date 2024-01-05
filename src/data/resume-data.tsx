@@ -19,6 +19,7 @@ import {
   ZeepayLogo,
 } from "@/images/logos";
 import { GitHubIcon, LinkedInIcon, XIcon } from "@/components/icons";
+import { DevToIcon } from "@/components/icons/DevToIcon";
 
 export const RESUME_DATA = {
   name: "Emmanuel Nkrumah-Sarpong",
@@ -31,6 +32,7 @@ export const RESUME_DATA = {
     "As a Software Engineer, I have a passion for crafting cool solutions. I love learning new things and have working knowledge of multiple technologies, languages and frameworks. Currently, I work mostly with Javascript, PHP, React, Node.js, and Vue. I have over 5 years of experience in working both remotely and on site with companies in the US and Africa.",
   avatarUrl: "https://avatars.githubusercontent.com/u/42615665?v=4",
   personalWebsiteUrl: "https://nkrumahsarpong.com",
+  blogUrl: "https://dev.to/nkrumahthis",
   contact: {
     email: "nkrumahthis@gmail.com",
     tel: "+233242359842",
@@ -49,6 +51,11 @@ export const RESUME_DATA = {
         name: "X",
         url: "https://x.com/nkrumahthis",
         icon: XIcon,
+      },
+      {
+        name: "Dev.to",
+        url: "https://dev.to/nkrumahthis",
+        icon: DevToIcon,
       },
     ],
   },
@@ -70,13 +77,13 @@ export const RESUME_DATA = {
       start: "2023",
       end: "Present",
       achievements: [
-        "Upgraded Zeepay Ghana's core services from Laravel 6/7 to 10, enhancing security and performance for a platform processing over US$ 93 million in daily transactions.",
-        "Improved deployment speed at Zeepay, slashing time from idea/bug discovery to release by hours through a custom CI/CD pipeline leveraging Github Actions with Jenkins. Saving at least 1 hour per deployment.",
-        "Championed the adoption of industry-standard tools like Sentry (error logging) and Docker (containerization), boosting development efficiency, code quality, and observability."
+        "Upgraded Zeepay Ghana's core services from Laravel 6/7 to 10, enhancing security and performance",
+        "Accelerated Zeepay deployments by hours per release using a custom CI/CD pipeline with GitHub Actions and Jenkins.",
+        "Introduced Sentry for error logging and Docker for containerization, enhancing dev efficiency, code quality, and observability."
       ],
       technologies: ["Laravel", "Php", "Vue", "Javascript", "Docker"],
       description:
-        "Working at Ghana's top company (2022), maintaining and extending platforms processing over US$ 93 million in daily transactions."
+        "Working at Ghana's top company (2022), maintaining and extending critical platforms processing over US$ 93 million in daily transactions."
     },
     {
       company: "Plato Solutions Inc",
@@ -106,9 +113,9 @@ export const RESUME_DATA = {
       start: "2018",
       end: "2021",
       achievements: [
-        "Built tight software team, created Android apps for students", 
-        "Set up cloud infrastructure", 
-        "Built and maintained wordpress and woocommerce store", 
+        "Built tight software team, created Android apps for students",
+        "Set up cloud infrastructure",
+        "Built and maintained wordpress and woocommerce store",
         "Led a team to build an affordable Smart Board for classrooms using a camera, LED pen and ComputerVision"
       ],
       technologies: ["Python", "Java", "JavaScript", "PHP"],
@@ -141,164 +148,111 @@ export const RESUME_DATA = {
   ],
   projects: [
     {
-      title: "Consultly",
+      title: "Autocedi",
       techStack: [
-        "Side Project",
-        "TypeScript",
+        "CryptoCurrency",
+        "JavaScript",
         "Next.js",
         "Vite",
-        "GraphQL",
-        "WebRTC",
+        "REST",
+        "cron",
       ],
-      description: "A platform to build and grow your online business",
+      description: "Bank of Ghana Hackathon Finalist. A platform to automate payments using Ghana's CBDC: The eCedi.",
       logo: ConsultlyLogo,
       link: {
-        label: "consultly.com",
-        href: "https://consultly.com/",
+        label: "autocedi",
+        href: "https://autocedi-web.vercel.app/",
       },
-    },
+    }, 
     {
-      title: "Monito",
-      techStack: ["Side Project", "TypeScript", "Next.js", "Browser Extension"],
-      description:
-        "Browser extension that records everything happening in a web application",
-      logo: MonitoLogo,
-      link: {
-        label: "monito.dev",
-        href: "https://monito.dev/",
-      },
-    },
-    {
-      title: "Jarocki.me",
-      techStack: ["Side Project", "Next.js", "MDX"],
-      description:
-        "My personal website and blog. Built with Next.js and Notion API",
-      logo: JarockiMeLogo,
-      link: {
-        label: "github.com",
-        href: "https://jarocki.me/",
-      },
-    },
-    {
-      title: "Minimal",
-      techStack: ["Side Project", "Next.js", "Puppeteer"],
-      description:
-        "Minimalist calendars, habit trackers and planners generator",
-      logo: Minimal,
-      link: {
-        label: "useminimal.com",
-        href: "https://useminimal.com/",
-      },
-    },
-    {
-      title: "Barepapers",
-      techStack: ["Side Project", "Next.js", "Puppeteer"],
-      description:
-        "Generates beautiful wallpapers using random shapes and gradients",
-      logo: BarepapersLogo,
-      link: {
-        label: "barepapers.com",
-        href: "https://barepapers.com/",
-      },
-    },
-    {
-      title: "Year progress",
-      techStack: ["Side Project", "TypeScript", "Next.js"],
-      description: "Tracks current year progress and displays a countdown",
-      logo: YearProgressLogo,
-      link: {
-        label: "getyearprogress.com",
-        href: "https://getyearprogress.com/",
-      },
-    },
-    {
-      title: "Parabol",
+      title: "Assorted Jollof",
       techStack: [
-        "Full Stack Developer",
+        "REST API",
         "TypeScript",
-        "React",
-        "Node.js",
-        "GraphQL",
+        "Rust",
+        "Go",
+        "PHP",
+        "Java",
+        "Python",
+        "Practice"
       ],
       description:
-        "The Agile meeting co-pilot that delivers better meetings with less effort",
+        "One same basic REST api server. Rewritten in 6 languages: typescript, go, python, php, java and rust.",
       logo: ParabolLogo,
       link: {
         label: "github.com",
-        href: "https://parabol.co/",
+        href: "https://github.com/nkrumahthis/assorted-jollof",
       },
     },
     {
-      title: "Evercast",
+      title: "SLAPC",
       techStack: [
-        "Lead Frontend Developer",
-
-        "TypeScript",
-        "React",
-        "Node.js",
-        "GraphQL",
+        "Side Project",
+        "Go",
+        "HTML",
+        "ssh",
       ],
       description:
-        "Creative collaboration platform that combines video conferencing and HD media streaming",
+        "Easy interface to monitor logs and deploy new code for laravel servers",
       logo: EvercastLogo,
       link: {
-        label: "evercast.us",
-        href: "https://www.evercast.us/",
+        label: "github slapc",
+        href: "https://github.com/nkrumahthis/slapc",
       },
     },
     {
-      title: "Mobile Vikings",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
+      title: "Clever Bell",
+      techStack: ["IoT", "Raspberry Pi", "Python", "Php"],
       description:
-        "Android application for leading virtual mobile operator in Poland",
-      logo: MobileVikingsLogo,
+        "A battery powerd smart alarm system with a simple UI and School Management System integrability",
+      logo: MonitoLogo,
       link: {
-        label: "mobilevikings.pl",
-        href: "https://mobilevikings.pl/",
+        label: "CleverBell",
+        href: "https://github.com/nkrumahthis/clever-bell",
       },
     },
     {
-      title: "Howdy",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
+      title: "Science Set Shop",
+      techStack: ["eCommerce", "WooCommerce", "Wordpress", "Javascript", "Php", "Paystack"],
       description:
-        "Howdy is a place for you to join communities you care about",
-      logo: Howdy,
+        "eCommerce store for Dext Technology for selling Science Sets. > US$100k sales",
+      logo: JarockiMeLogo,
       link: {
-        label: "play.google.com",
-        href: "https://howdy.co/",
+        label: "thescienceset.com",
+        href: "https://thescienceset.com",
       },
     },
     {
-      title: "Tastycloud",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
+      title: "Scheduler Engine",
+      techStack: ["Library", "TypeScript", "NodeJs"],
       description:
-        "Android application for managing and displaying restaurant menus in kiosk mode",
-      logo: TastyCloudLogo,
+        "A library that allows you to set tasks and their schedules then executes tasks at specified times/intervals.",
+      logo: Minimal,
       link: {
-        label: "tastycloud.fr",
-        href: "https://www.tastycloud.fr/",
+        label: "scheduler-engine",
+        href: "https://www.npmjs.com/package/@plato2/scheduler-engine",
       },
     },
     {
-      title: "Ambit",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
+      title: "Yii2 Graphql",
+      techStack: ["Library", "Graphql", "Yii2", "Php"],
       description:
-        "Android application that helps with sharing your contact details",
-      logo: AmbitLogo,
+        "Fork: graphql server side for yii2 php framework",
+      logo: BarepapersLogo,
+      link: {
+        label: "yii2-graphql",
+        href: "https://packagist.org/packages/plato-solutions/yii2-graphql",
+      },
     },
     {
-      title: "Bim",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application that helps with booking a table in a restaurants",
-      logo: BimLogo,
-    },
-    {
-      title: "Canal Digital GO",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Video streaming mobile application for Canal Digital subscribers",
-      logo: CDGOLogo,
-    },
+      title: "HTML Denormalizer",
+      techStack: ["Library", "Javascript", "Nodejs"],
+      description: "Transforms JSON to HTML",
+      logo: YearProgressLogo,
+      link: {
+        label: "html-denormalizer github",
+        href: "https://github.com/Plato-solutions/html-denormalizer",
+      },
+    }
   ],
 } as const;
