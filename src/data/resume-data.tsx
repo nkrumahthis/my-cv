@@ -29,7 +29,7 @@ export const RESUME_DATA = {
   about:
     "Software Engineer with 7yoe building useful tools",
   summary:
-    "Software Engineer with 7 years of professional experience, I have a passion for crafting useful solutions. I love learning different things and have working knowledge of multiple technologies, languages and frameworks. Currently, I work mostly with Javascript, PHP, React, Node.js and Laravel. I write some Go on the side",
+    "Backend Engineer with 7+ years, building robust systems for growing companies. Upgraded a crucial fintech server that handles significant throughput of transactions (now over $93 million daily on average and doubling each year). Focused on creating tools and efficient processes for smooth operations amidst ongoing growth. Always eager to try new technologies.",
   avatarUrl: "https://avatars.githubusercontent.com/u/42615665?v=4",
   personalWebsiteUrl: "https://nkrumahsarpong.com",
   blogUrl: "https://dev.to/nkrumahthis",
