@@ -194,6 +194,10 @@ export default function Page() {
             url: RESUME_DATA.personalWebsiteUrl,
             title: "Personal Website",
           },
+          {
+            url: RESUME_DATA.blogUrl,
+            title: "Blog",
+          },
           ...RESUME_DATA.contact.social.map((socialMediaLink) => ({
             url: socialMediaLink.url,
             title: socialMediaLink.name,
