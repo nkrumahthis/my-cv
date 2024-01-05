@@ -27,9 +27,9 @@ export const RESUME_DATA = {
   location: "Accra, Ghana, GMT",
   locationLink: "https://www.google.com/maps/place/Accra",
   about:
-    "Software Engineer (Backend preferred) building tools to improve lives",
+    "Software Engineer with 7yoe building useful tools",
   summary:
-    "As a Software Engineer, I have a passion for crafting cool solutions. I love learning new things and have working knowledge of multiple technologies, languages and frameworks. Currently, I work mostly with Javascript, PHP, React, Node.js, and Vue. I have over 5 years of experience in working both remotely and on site with companies in the US and Africa.",
+    "Software Engineer with 7 years of professional experience, I have a passion for crafting useful solutions. I love learning different things and have working knowledge of multiple technologies, languages and frameworks. Currently, I work mostly with Javascript, PHP, React, Node.js and Laravel. I write a some Go on the side",
   avatarUrl: "https://avatars.githubusercontent.com/u/42615665?v=4",
   personalWebsiteUrl: "https://nkrumahsarpong.com",
   blogUrl: "https://dev.to/nkrumahthis",
@@ -134,17 +134,25 @@ export const RESUME_DATA = {
         "Contributed to, debugged and tested Android apps like TimeTab"
       ],
       technologies: ["Java", "Android", "Php", "SlimPhp"],
-      description: "",
+      description: "Junior android developer and App Tester",
     },
   ],
   skills: [
     "JavaScript",
+    "Php",
+    "Laravel",
     "TypeScript",
-    "React/Next.js/Remix",
+    "Go",
+    "React",
+    "Vue",
     "Node.js",
     "GraphQL",
-    "Relay",
-    "WebRTC",
+    "REST",
+    "MySQL",
+    "AWS",
+    "Docker",
+    "Jenkins",
+    "Git",
   ],
   projects: [
     {
