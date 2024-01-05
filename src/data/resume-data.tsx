@@ -29,7 +29,7 @@ export const RESUME_DATA = {
   about:
     "Software Engineer with 7yoe building useful tools",
   summary:
-    "Backend Engineer with 7+ years, building robust systems for growing companies. Upgraded a crucial fintech server that handles significant throughput of transactions (now over $93 million daily on average and doubling each year). Focused on creating tools and efficient processes for smooth operations amidst ongoing growth. Always eager to try new technologies.",
+    "Backend Engineer with 7+ years, building robust systems for growing companies. Upgraded a crucial fintech server that handles significant throughput of transactions (now over $93 million daily on average and doubling each year). Focused on creating tools and automations for smooth development and maintainance amidst ongoing growth. Always eager to try new technologies. A polyglot.",
   avatarUrl: "https://avatars.githubusercontent.com/u/42615665?v=4",
   personalWebsiteUrl: "https://nkrumahsarpong.com",
   blogUrl: "https://dev.to/nkrumahthis",
