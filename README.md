@@ -1,6 +1,8 @@
-![cv](public/full_page_screenshot.png)
-
 # Nkrumah's CV
+
+Live on [cv.nkrumahsarpong.com](https://cv.nkrumahsarpong.com)
+
+![cv](public/full_page_screenshot.png)
 
 Simple web app that renders minimalist CV with print-friendly layout.
 
@@ -8,7 +10,7 @@ Built with Next.js and shadcn/ui, deployed on Vercel.
 
 Forked from [here](https://github.com/BartoszJarocki/cv.git)
 
-# Features
+## Features
 
 - Setup only takes a few minutes [single config file](./src/data/resume-data.tsx)
 - Built using Next.js 14, React, Typescript, Shadcn/ui, TailwindCss
@@ -16,7 +18,7 @@ Forked from [here](https://github.com/BartoszJarocki/cv.git)
 - Responsive for different devices
 - Optimized for Next.js and Vercel
 
-# Getting Started Locally
+## Getting Started Locally
 
 1. Clone this repository to your local machine:
 
@@ -44,26 +46,26 @@ Forked from [here](https://github.com/BartoszJarocki/cv.git)
 
 5. Open the [Config file](./src/data/resume-data.tsx) and make changes
 
-# Run with Docker
+## Run with Docker
 
 Build the containewr
 
-```
+```bash
 docker compose build
 ```
 
 Run the container
 
-```
+```bash
 docker compose up -d
 ```
 
 Stop the Container
 
-```
+```bash
 docker compose down 
 ```
 
-# License
+## License
 
 [MIT](https://choosealicense.com/licenses/mit/)
