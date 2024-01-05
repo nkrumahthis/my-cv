@@ -61,7 +61,7 @@ export const RESUME_DATA = {
   },
   education: [
     {
-      school: "University of Science and Technology",
+      school: "University of Mines and Technology, Tarkwa, Ghana",
       degree: "Bachelor's Degree in Computer Science and Engineering",
       start: "2013",
       end: "2017",
