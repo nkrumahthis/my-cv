@@ -16,92 +16,118 @@ import {
   ParabolLogo,
   TastyCloudLogo,
   YearProgressLogo,
+  ZeepayLogo,
 } from "@/images/logos";
 import { GitHubIcon, LinkedInIcon, XIcon } from "@/components/icons";
 
 export const RESUME_DATA = {
-  name: "Bartosz Jarocki",
-  initials: "BJ",
-  location: "Wrocław, Poland, CET",
-  locationLink: "https://www.google.com/maps/place/Wrocław",
+  name: "Emmanuel Nkrumah-Sarpong",
+  initials: "ENS",
+  location: "Accra, Ghana, GMT",
+  locationLink: "https://www.google.com/maps/place/Accra",
   about:
-    "Full Stack Engineer focused on building products with extra attention to detail",
+    "Software Engineer (Backend preferred) building tools to improve lives",
   summary:
-    "As a Full Stack Engineer, I have successfully taken multiple products from 0 to 1. I lead teams effectively, ensuring an environment where people can do their best work. Currently, I work mostly with TypeScript, React, Node.js, and GraphQL. I have over 8 years of experience in working remotely with companies all around the world.",
-  avatarUrl: "https://avatars.githubusercontent.com/u/1017620?v=4",
-  personalWebsiteUrl: "https://jarocki.me",
+    "As a Software Engineer, I have a passion for crafting cool solutions. I love learning new things and have working knowledge of multiple technologies, languages and frameworks. Currently, I work mostly with Javascript, PHP, React, Node.js, and Vue. I have over 5 years of experience in working both remotely and on site with companies in the US and Africa.",
+  avatarUrl: "https://avatars.githubusercontent.com/u/42615665?v=4",
+  personalWebsiteUrl: "https://nkrumahsarpong.com",
   contact: {
-    email: "bartosz.jarocki@hey.com",
-    tel: "+48530213401",
+    email: "nkrumahthis@gmail.com",
+    tel: "+233242359842",
     social: [
       {
         name: "GitHub",
-        url: "https://github.com/BartoszJarocki",
+        url: "https://github.com/nkrumahthis",
         icon: GitHubIcon,
       },
       {
         name: "LinkedIn",
-        url: "https://www.linkedin.com/in/bjarocki/",
+        url: "https://www.linkedin.com/in/nkrumahthis/",
         icon: LinkedInIcon,
       },
       {
         name: "X",
-        url: "https://x.com/BartoszJarocki",
+        url: "https://x.com/nkrumahthis",
         icon: XIcon,
       },
     ],
   },
   education: [
     {
-      school: "Wrocław University of Technology",
-      degree: "Bachelor's Degree in Control systems engineering and Robotics",
-      start: "2007",
-      end: "2010",
+      school: "University of Science and Technology",
+      degree: "Bachelor's Degree in Computer Science and Engineering",
+      start: "2013",
+      end: "2017",
     },
   ],
   work: [
     {
-      company: "Parabol",
-      link: "https://parabol.co",
-      badges: ["Remote"],
-      title: "Senior Full Stack Developer",
-      logo: ParabolLogo,
-      start: "2021",
-      end: "2024",
+      company: "Zeepay",
+      link: "https://myzeepay.com",
+      badges: ["On-site"],
+      title: "Senior Technology Manager Band 1",
+      logo: ZeepayLogo,
+      start: "2023",
+      end: "Present",
+      achievements: [
+        "Upgraded Zeepay Ghana's core services from Laravel 6/7 to 10, enhancing security and performance for a platform processing over US$ 93 million in daily transactions.",
+        "Improved deployment speed at Zeepay, slashing time from idea/bug discovery to release by hours through a custom CI/CD pipeline leveraging Github Actions with Jenkins. Saving at least 1 hour per deployment.",
+        "Championed the adoption of industry-standard tools like Sentry (error logging) and Docker (containerization), boosting development efficiency, code quality, and observability."
+      ],
+      technologies: ["Laravel", "Php", "Vue", "Javascript", "Docker"],
       description:
-        "Implemented new features, led squad, worked on improving the way developers ship the code, started migration from Emotion to Tailwind CSS and more. Technologies: React, TypeScript, GraphQL",
+        "Working at Ghana's top company (2022), maintaining and extending platforms processing over US$ 93 million in daily transactions."
     },
     {
-      company: "Clevertech",
-      link: "https://clevertech.biz",
+      company: "Plato Solutions Inc",
+      link: "https://platosolutions.io",
       badges: ["Remote"],
-      title: "Lead Android Developer → Full Stack Developer",
+      title: "Software Engineer",
       logo: ClevertechLogo,
-      start: "2015",
-      end: "2021",
-      description:
-        "Created Android mobile apps and led teams for companies like Vision Media, DKMS, or AAA. Built live streaming application for Evercast from scratch. Technologies: Android, Kotlin, React, TypeScript, GraphQL",
+      start: "2021",
+      end: "2023",
+      description: "Developed and architected full-stack software solutions, adhering to rigorous coding standards, testing methodologies, and Agile principles, while demonstrating expertise in REST APIs, GraphQL, Yii framework customization, and CI/CD usage.",
+      technologies: ["JavaScript", "Typescript", "PHP", "GraphQL", "Docker", "Yii2", "JIRA", "GitlabAPI", "Pipedrive API", "nodemation"],
+      achievements: [
+        "Architected and build an ETL system for transforming JSON data into products for a Magento store fully automatically",
+        "Wrote a NodeJs library for executing promises on a cron in a clean syntax. Then used it in the ETL System in Production",
+        "Forked, customized and published a variation of a PHP GraphQL library for Yii2",
+        "Developed full stack PHP (Yii framework) software that exposes a Graphql API using the self customized GraphQL library with 2000 installs.",
+        "Built RESTful APIs that provided data for a Machine Learning system, integrating with JIRA, Gitlab and PipeDrive",
+        "Built a Chrome extension to aid in automated collection of data into Pipedrive"
+      ]
     },
     {
-      company: "Jojo Mobile",
-      link: "https://bsgroup.eu/",
-      badges: [],
-      title: "Android Developer → Lead Android Developer",
+      company: "Dext Technologies",
+      link: "https://thescienceset.com/",
+      badges: ["Hybrid"],
+      title: "Lead Developer",
       logo: JojoMobileLogo,
-      start: "2012",
-      end: "2015",
+      start: "2018",
+      end: "2021",
+      achievements: [
+        "Built tight software team, created Android apps for students", 
+        "Set up cloud infrastructure", 
+        "Built and maintained wordpress and woocommerce store", 
+        "Led a team to build an affordable Smart Board for classrooms using a camera, LED pen and ComputerVision"
+      ],
+      technologies: ["Python", "Java", "JavaScript", "PHP"],
       description:
-        "Built an Android team, created Android apps for biggest Polish companies like LOT, Polskie Radio, Agora, PolskaPress",
+        "Served as the startup's main software engineer, and then Lead Engineer for R&D education technology projects",
     },
     {
-      company: "Nokia Siemens Networks",
-      link: "https://www.nokia.com",
-      badges: [],
-      title: "C/C++ Developer",
+      company: "Glivion Technologies",
+      link: "https://www.glivion.tech",
+      badges: ["Part-time"],
+      title: "Junior Android Developer",
       logo: NSNLogo,
-      start: "2010",
-      end: "2012",
-      description: "Creating and testing software for LTE base stations",
+      start: "2014",
+      end: "2016",
+      achievements: [
+        "Contributed to, debugged and tested Android apps like TimeTab"
+      ],
+      technologies: ["Java", "Android", "Php", "SlimPhp"],
+      description: "",
     },
   ],
   skills: [
