@@ -87,10 +87,10 @@ export default function Page() {
             </div>
           </div>
 
-          <Avatar className="size-28">
+          {/* <Avatar className="size-28">
             <AvatarImage alt={RESUME_DATA.name} src={RESUME_DATA.avatarUrl} />
             <AvatarFallback>{RESUME_DATA.initials}</AvatarFallback>
-          </Avatar>
+          </Avatar> */}
         </div>
         <Section>
           <h2 className="text-xl font-bold">About</h2>
@@ -133,6 +133,9 @@ export default function Page() {
                 </CardHeader>
                 <CardContent className="mt-2 text-xs">
                   {work.description}
+                  <br />
+                  <ul className="m-2 list-disc">{work.achievements.map((achievement, idx) => (<li key={idx}>{achievement}</li>))}</ul>
+                  <p className="mt-2"><b>Technologies:</b> <span>{work.technologies.join(", ")}</span></p>
                 </CardContent>
               </Card>
             );
