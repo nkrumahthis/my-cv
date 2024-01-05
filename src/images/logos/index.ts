@@ -16,6 +16,8 @@ import TastyCloudLogo from "./tastycloud.png";
 import YearProgressLogo from "./yearprogress.svg";
 import Minimal from "./minimal.svg";
 
+import ZeepayLogo from "./zeepay.png";
+
 export {
   ConsultlyLogo,
   AmbitLogo,
@@ -34,4 +36,6 @@ export {
   TastyCloudLogo,
   YearProgressLogo,
   Minimal,
+
+  ZeepayLogo
 };
