@@ -27,9 +27,9 @@ export const RESUME_DATA = {
   location: "Accra, Ghana, GMT",
   locationLink: "https://www.google.com/maps/place/Accra",
   about:
-    "Software Engineer with 7yoe building useful tools",
+    "Software Engineer, 7yoe, polyglot, tool builder, open source contributor.",
   summary:
-    "Backend Engineer with 7+ years, building robust systems for growing companies. Upgraded a crucial fintech server that handles significant throughput of transactions (now over $93 million daily on average and doubling each year). Focused on creating tools and automations for smooth development and maintainance amidst ongoing growth. Always eager to try new technologies. A polyglot.",
+    "Backend Engineer with 7+ years, building robust systems for growing companies. 2023 eCedi Hackathon finalist. Upgraded a crucial fintech server that handles significant throughput of transactions (now over $93 million daily on average and doubling each year). Maintainer of 3 Open Source packages. Focused on creating tools and automations for smooth development and maintenance amidst ongoing growth. Always eager to try new technologies. A programming language polyglot.",
   avatarUrl: "https://avatars.githubusercontent.com/u/42615665?v=4",
   personalWebsiteUrl: "https://nkrumahsarpong.com",
   blogUrl: "https://dev.to/nkrumahthis",
@@ -72,12 +72,12 @@ export const RESUME_DATA = {
       company: "Zeepay",
       link: "https://myzeepay.com",
       badges: ["On-site"],
-      title: "Senior Technology Manager Band 1",
+      title: "Senior Technology Manager (Band 1)",
       logo: ZeepayLogo,
       start: "2023",
       end: "Present",
       achievements: [
-        "Upgraded Zeepay Ghana's core services from Laravel 6/7 to 10, enhancing security and performance",
+        "Upgraded Zeepay Ghana's core services from Laravel 6/7 to 10, enhancing security, performance and stability",
         "Accelerated Zeepay deployments by hours per release using a custom CI/CD pipeline with GitHub Actions and Jenkins.",
         "Introduced Sentry for error logging and Docker for containerization, enhancing dev efficiency, code quality, and observability."
       ],
@@ -96,12 +96,11 @@ export const RESUME_DATA = {
       description: "Developed and architected full-stack software solutions, adhering to rigorous coding standards, testing methodologies, and Agile principles, while demonstrating expertise in REST APIs, GraphQL, Yii framework customization, and CI/CD usage.",
       technologies: ["JavaScript", "Typescript", "PHP", "GraphQL", "Docker", "Yii2", "JIRA", "GitlabAPI", "Pipedrive API", "nodemation"],
       achievements: [
-        "Architected and build an ETL system for transforming JSON data into products for a Magento store fully automatically",
-        "Wrote a NodeJs library for executing promises on a cron in a clean syntax. Then used it in the ETL System in Production",
-        "Forked, customized and published a variation of a PHP GraphQL library for Yii2",
-        "Developed full stack PHP (Yii framework) software that exposes a Graphql API using the self customized GraphQL library with 2000 installs.",
+        "Architected and built an ETL system that seamlessly transforms JSON data into Magento products with info and media, in real time, leveraging Magento's REST and GraphQL APIs.",
+        "Created and published open-source Node.js libraries (Scheduler Engine, HTML Denormalizer) with 2000+ installs each, used in production ETL systems, and contributed to the PHP GraphQL ecosystem with a customized Yii2 library (2000+ installs).",
+        "Developed full stack PHP (Yii framework) software that exposes a Graphql API using the self customized GraphQL. It served data needed for running automation scripts that scraped the internet and performed user actions.",
         "Built RESTful APIs that provided data for a Machine Learning system, integrating with JIRA, Gitlab and PipeDrive",
-        "Built a Chrome extension to aid in automated collection of data into Pipedrive"
+        "Built a Chrome extension for internal use to aid in automated collection of data into Pipedrive"
       ]
     },
     {
@@ -113,14 +112,17 @@ export const RESUME_DATA = {
       start: "2018",
       end: "2021",
       achievements: [
-        "Built tight software team, created Android apps for students",
-        "Set up cloud infrastructure",
-        "Built and maintained wordpress and woocommerce store",
-        "Led a team to build an affordable Smart Board for classrooms using a camera, LED pen and ComputerVision"
+        "Built and coordinated a small tight creative software team",
+        "Created an Augmented Reality app for students to make science education interactive. Won an award for it at a Kumasi Hive Hackathon and the British Commission in 2018",
+        "Created a cross platform app with Ionic that served as an interactive eTextbook for the Science Set",
+        "Wrote the backend for and deployed software for gathering STEM data of over 120,000 students in for the Ghana Education Service and the National Teachers' Council",
+        "Set up the startup's cloud infrastructure on AWS and Bluehost.",
+        "Built and maintained wordpress and woocommerce store, generating over US$100,000 in sales",
+        "Led a team to build an affordable Smart Board for classrooms using a camera, LED pen and Computer Vision"
       ],
-      technologies: ["Python", "Java", "JavaScript", "PHP"],
+      technologies: ["Python", "Java", "JavaScript", "PHP", "AR", "OpenCV", "Ionic 4", "Wordpress"],
       description:
-        "Served as the startup's main software engineer, and then Lead Engineer for R&D education technology projects",
+        "Served as a sole and (later) lead developer of this startup, interfacing between the engineers and the business executives, onboarding other engineers and managing all interns",
     },
     {
       company: "Glivion Technologies",
@@ -134,7 +136,7 @@ export const RESUME_DATA = {
         "Contributed to, debugged and tested Android apps like TimeTab"
       ],
       technologies: ["Java", "Android", "Php", "SlimPhp"],
-      description: "Junior android developer and App Tester",
+      description: "Junior Android developer and App Tester",
     },
   ],
   skills: [
@@ -165,13 +167,13 @@ export const RESUME_DATA = {
         "REST",
         "cron",
       ],
-      description: "Bank of Ghana Hackathon Finalist. A platform to automate payments using Ghana's CBDC: The eCedi.",
+      description: "Bank of Ghana Hackathon Finalist. A user friendly platform to automate payments using Ghana's CBDC: The eCedi.",
       logo: ConsultlyLogo,
       link: {
         label: "autocedi",
         href: "https://autocedi-web.vercel.app/",
       },
-    }, 
+    },
     {
       title: "Assorted Jollof",
       techStack: [
@@ -206,17 +208,6 @@ export const RESUME_DATA = {
       link: {
         label: "github slapc",
         href: "https://github.com/nkrumahthis/slapc",
-      },
-    },
-    {
-      title: "Clever Bell",
-      techStack: ["IoT", "Raspberry Pi", "Python", "Php"],
-      description:
-        "A battery powerd smart alarm system with a simple UI and School Management System integrability",
-      logo: MonitoLogo,
-      link: {
-        label: "CleverBell",
-        href: "https://github.com/nkrumahthis/clever-bell",
       },
     },
     {
@@ -260,6 +251,17 @@ export const RESUME_DATA = {
       link: {
         label: "html-denormalizer github",
         href: "https://github.com/Plato-solutions/html-denormalizer",
+      },
+    },
+    {
+      title: "Clever Bell",
+      techStack: ["IoT", "Raspberry Pi", "Python", "Php"],
+      description:
+        "A battery powerd smart alarm system with a simple UI and School Management System integrability",
+      logo: MonitoLogo,
+      link: {
+        label: "CleverBell",
+        href: "https://github.com/nkrumahthis/clever-bell",
       },
     }
   ],
