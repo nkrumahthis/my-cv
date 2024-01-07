@@ -96,11 +96,11 @@ export const RESUME_DATA = {
       description: "Developed and architected full-stack software solutions, adhering to rigorous coding standards, testing methodologies, and Agile principles, while demonstrating expertise in REST APIs, GraphQL, Yii framework customization, and CI/CD usage.",
       technologies: ["JavaScript", "Typescript", "PHP", "GraphQL", "Docker", "Yii2", "JIRA", "GitlabAPI", "Pipedrive API", "nodemation"],
       achievements: [
-        "Architected and built an ETL system that seamlessly transforms JSON data into Magento products with info and media, in real time, leveraging Magento's REST and GraphQL APIs.",
-        "Created and published open-source Node.js libraries (Scheduler Engine, HTML Denormalizer) with 2000+ installs each, used in production ETL systems, and contributed to the PHP GraphQL ecosystem with a customized Yii2 library (2000+ installs).",
-        "Developed full stack PHP (Yii framework) software that exposes a Graphql API using the self customized GraphQL. It served data needed for running automation scripts that scraped the internet and performed user actions.",
-        "Built RESTful APIs that provided data for a Machine Learning system, integrating with JIRA, Gitlab and PipeDrive",
-        "Built a Chrome extension for internal use to aid in automated collection of data into Pipedrive"
+        "Architected and implemented an ETL system that transforms JSON data into Magento products with info and media, in real time, leveraging Magento's REST and GraphQL APIs.",
+        "Published open-source Node.js libraries (Scheduler Engine, HTML Denormalizer) and a composer library (Yii2 GraphQL), each with 2000+ installs.",
+        "Developed full stack PHP (Yii framework) software that exposes a Graphql API using the self customized GraphQL composer library",
+        "Created RESTful APIs that provided data for a Machine Learning system, integrating with JIRA, Gitlab and PipeDrive",
+        "Delivered a Chrome extension for internal use to aid in automated collection of data into Pipedrive"
       ]
     },
     {
@@ -112,12 +112,11 @@ export const RESUME_DATA = {
       start: "2018",
       end: "2021",
       achievements: [
-        "Built and coordinated a small tight creative software team",
         "Created an Augmented Reality app for students to make science education interactive. Won an award for it at a Kumasi Hive Hackathon and the British Commission in 2018",
-        "Created a cross platform app with Ionic that served as an interactive eTextbook for the Science Set",
+        "Built a cross platform app with Ionic that served as an interactive eTextbook for the Science Set",
         "Wrote the backend for and deployed software for gathering STEM data of over 120,000 students in for the Ghana Education Service and the National Teachers' Council",
         "Set up the startup's cloud infrastructure on AWS and Bluehost.",
-        "Built and maintained wordpress and woocommerce store, generating over US$100,000 in sales",
+        "Developed a wordpress/woocommerce store which generated US$100,000+ in sales over time",
         "Led a team to build an affordable Smart Board for classrooms using a camera, LED pen and Computer Vision"
       ],
       technologies: ["Python", "Java", "JavaScript", "PHP", "AR", "OpenCV", "Ionic 4", "Wordpress"],
@@ -131,12 +130,12 @@ export const RESUME_DATA = {
       title: "Junior Android Developer",
       logo: NSNLogo,
       start: "2014",
-      end: "2016",
+      end: "2015",
       achievements: [
-        "Contributed to, debugged and tested Android apps like TimeTab"
+        "Demonstrated expertise in developing, debugging, and testing Android apps like TimeTab. We successfully scaled the app to over 5,000 users, but encountered a challenge when the keystore was lost. We reached 1,000 users again before ceasing development to pursue new projects."
       ],
       technologies: ["Java", "Android", "Php", "SlimPhp"],
-      description: "Junior Android developer and App Tester",
+      description: "Junior Android developer",
     },
   ],
   skills: [
@@ -263,6 +262,19 @@ export const RESUME_DATA = {
         label: "CleverBell",
         href: "https://github.com/nkrumahthis/clever-bell",
       },
+      
+    },
+    {
+      title: "Timetab",
+      techStack: ["Android", "Java"],
+      description:
+        "An app for students to the plan/schedule of their day to day lectures and activities.",
+      logo: MonitoLogo,
+      link: {
+        label: "Timetab",
+        href: "https://play.google.com/store/apps/details?id=glivion.timetab",
+      },
+      
     }
   ],
 } as const;
