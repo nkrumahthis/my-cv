@@ -104,7 +104,7 @@ export const RESUME_DATA = {
       ]
     },
     {
-      company: "Dext Technologies",
+      company: "Dext Technology",
       link: "https://thescienceset.com/",
       badges: ["Hybrid"],
       title: "Lead Developer",
