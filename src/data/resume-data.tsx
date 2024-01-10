@@ -94,13 +94,13 @@ export const RESUME_DATA = {
       start: "2021",
       end: "2023",
       description: "Developed and architected full-stack software solutions, adhering to rigorous coding standards, testing methodologies, and Agile principles, while demonstrating expertise in REST APIs, GraphQL, Yii framework customization, and CI/CD usage.",
-      technologies: ["JavaScript", "Typescript", "PHP", "GraphQL", "Docker", "Yii2", "JIRA", "GitlabAPI", "Pipedrive API", "nodemation"],
+      technologies: ["JavaScript", "Typescript", "PHP", "GraphQL", "Docker", "Yii2", "JIRA", "GitlabAPI", "Pipedrive API", "nodemation", "Devops"],
       achievements: [
-        "Architected and implemented an ETL system that transforms JSON data into Magento products with info and media, in real time, leveraging Magento's REST and GraphQL APIs.",
+        "Architected and implemented real-time ETL that streamlined live product data and media updates in Magento via REST and GraphQL APIs.",
         "Published open-source Node.js libraries (Scheduler Engine, HTML Denormalizer) and a composer library (Yii2 GraphQL), each with 2000+ installs.",
-        "Developed full stack PHP (Yii framework) software that exposes a Graphql API using the self customized GraphQL composer library",
-        "Created RESTful APIs that provided data for a Machine Learning system, integrating with JIRA, Gitlab and PipeDrive",
-        "Delivered a Chrome extension for internal use to aid in automated collection of data into Pipedrive"
+        "Developed full stack PHP (Yii framework) software that exposes a GraphQL API, using composer library above, that managed automation data for thousands of intricate processes.",
+        "Facilitated AI efforts through RESTful APIs that provided data for a Machine Learning system, integrating with JIRA, Gitlab and PipeDrive.",
+        "Delivered a Chrome extension for internal use to aid in automated collection of data into Pipedrive, saving worker time."
       ]
     },
     {
@@ -112,12 +112,12 @@ export const RESUME_DATA = {
       start: "2018",
       end: "2021",
       achievements: [
-        "Created an Augmented Reality app for students to make science education interactive. Won an award for it at a Kumasi Hive Hackathon and the British Commission in 2018",
-        "Built a cross platform app with Ionic that served as an interactive eTextbook for the Science Set",
-        "Wrote the backend for and deployed software for gathering STEM data of over 120,000 students in for the Ghana Education Service and the National Teachers' Council",
-        "Set up the startup's cloud infrastructure on AWS and Bluehost.",
+        "Created an Augmented Reality app for students to make science education interactive. (Award: Winner, Kumasi Hive & British Commission CARE Hackathon, 2018)",
+        "Crafted cross-platform content-rich eTextbook app, enhancing product value for wider audience.",
+        "Wrote backend for software gathering comprehensive STEM data (120,000+ students) for Ghana Education Service and National Teachers' Council",
+        "Set up cloud infrastructure on AWS, self-hosting our store and tools for less than $25/month total",
         "Developed a wordpress/woocommerce store which generated US$100,000+ in sales over time",
-        "Led a team to build an affordable Smart Board for classrooms using a camera, LED pen and Computer Vision"
+        "Spearheaded innovative touch interactive smart board development (camera, Computer Vision) with interactive lessons - engaging novel product, potential revenue."
       ],
       technologies: ["Python", "Java", "JavaScript", "PHP", "AR", "OpenCV", "Ionic 4", "Wordpress"],
       description:
