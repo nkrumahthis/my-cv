@@ -135,7 +135,7 @@ export const RESUME_DATA = {
         "Demonstrated expertise in developing, debugging, and testing Android apps like TimeTab. We successfully scaled the app to over 5,000 users, but encountered a challenge when the keystore was lost. We reached 1,000 users again before ceasing development to pursue new projects."
       ],
       technologies: ["Java", "Android", "Php", "SlimPhp"],
-      description: "Junior Android developer",
+      description: "Tested products and implemented features and bugfixes, updated dependencies.",
     },
   ],
   skills: [
