@@ -157,6 +157,19 @@ export const RESUME_DATA = {
   ],
   projects: [
     {
+      title: "go-chain",
+      techStack: [
+        "CryptoCurrency",
+        "Go"
+      ],
+      description: "Blockchain implemented in Go",
+      logo: ConsultlyLogo,
+      link: {
+        label: "go-chain",
+        href: "https://github.com/nkrumahthis/go-chain",
+      },
+    },
+    {
       title: "Autocedi",
       techStack: [
         "CryptoCurrency",
