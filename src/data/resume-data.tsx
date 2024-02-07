@@ -1,23 +1,4 @@
-import {
-  AmbitLogo,
-  BarepapersLogo,
-  BimLogo,
-  CDGOLogo,
-  ClevertechLogo,
-  ConsultlyLogo,
-  EvercastLogo,
-  Howdy,
-  JarockiMeLogo,
-  JojoMobileLogo,
-  Minimal,
-  MobileVikingsLogo,
-  MonitoLogo,
-  NSNLogo,
-  ParabolLogo,
-  TastyCloudLogo,
-  YearProgressLogo,
-  ZeepayLogo,
-} from "@/images/logos";
+
 import { GitHubIcon, LinkedInIcon, XIcon } from "@/components/icons";
 import { DevToIcon } from "@/components/icons/DevToIcon";
 
@@ -73,7 +54,6 @@ export const RESUME_DATA = {
       link: "https://myzeepay.com",
       badges: ["On-site"],
       title: "Senior Technology Manager (Band 1)",
-      logo: ZeepayLogo,
       start: "2023",
       end: "Present",
       achievements: [
@@ -90,7 +70,6 @@ export const RESUME_DATA = {
       link: "https://platosolutions.io",
       badges: ["Remote"],
       title: "Software Engineer",
-      logo: ClevertechLogo,
       start: "2021",
       end: "2023",
       description: "Developed and architected full-stack software solutions, adhering to rigorous coding standards, testing methodologies, and Agile principles, while demonstrating expertise in REST APIs, GraphQL, Yii framework customization, and CI/CD usage.",
@@ -108,7 +87,6 @@ export const RESUME_DATA = {
       link: "https://thescienceset.com/",
       badges: ["Hybrid"],
       title: "Lead Developer",
-      logo: JojoMobileLogo,
       start: "2018",
       end: "2021",
       achievements: [
@@ -128,7 +106,6 @@ export const RESUME_DATA = {
       link: "https://www.glivion.tech",
       badges: ["Part-time"],
       title: "Junior Android Developer",
-      logo: NSNLogo,
       start: "2014",
       end: "2015",
       achievements: [
@@ -163,7 +140,6 @@ export const RESUME_DATA = {
         "Go"
       ],
       description: "Blockchain implemented in Go",
-      logo: ConsultlyLogo,
       link: {
         label: "go-chain",
         href: "https://github.com/nkrumahthis/go-chain",
@@ -180,7 +156,6 @@ export const RESUME_DATA = {
         "cron",
       ],
       description: "Bank of Ghana Hackathon Finalist. A user friendly platform to automate payments using Ghana's CBDC: The eCedi.",
-      logo: ConsultlyLogo,
       link: {
         label: "autocedi",
         href: "https://autocedi-web.vercel.app/",
@@ -200,7 +175,6 @@ export const RESUME_DATA = {
       ],
       description:
         "One same basic REST api server. Rewritten in 6 languages: typescript, go, python, php, java and rust.",
-      logo: ParabolLogo,
       link: {
         label: "github.com",
         href: "https://github.com/nkrumahthis/assorted-jollof",
@@ -216,7 +190,6 @@ export const RESUME_DATA = {
       ],
       description:
         "Easy interface to monitor logs and deploy new code for laravel servers",
-      logo: EvercastLogo,
       link: {
         label: "github slapc",
         href: "https://github.com/nkrumahthis/slapc",
@@ -227,7 +200,6 @@ export const RESUME_DATA = {
       techStack: ["eCommerce", "WooCommerce", "Wordpress", "Javascript", "Php", "Paystack"],
       description:
         "eCommerce store for Dext Technology for selling Science Sets. > US$100k sales",
-      logo: JarockiMeLogo,
       link: {
         label: "thescienceset.com",
         href: "https://thescienceset.com",
@@ -238,7 +210,6 @@ export const RESUME_DATA = {
       techStack: ["Library", "TypeScript", "NodeJs"],
       description:
         "A library that allows you to set tasks and their schedules then executes tasks at specified times/intervals.",
-      logo: Minimal,
       link: {
         label: "scheduler-engine",
         href: "https://www.npmjs.com/package/@plato2/scheduler-engine",
@@ -249,7 +220,6 @@ export const RESUME_DATA = {
       techStack: ["Library", "Graphql", "Yii2", "Php"],
       description:
         "Fork: graphql server side for yii2 php framework",
-      logo: BarepapersLogo,
       link: {
         label: "yii2-graphql",
         href: "https://packagist.org/packages/plato-solutions/yii2-graphql",
@@ -259,7 +229,6 @@ export const RESUME_DATA = {
       title: "HTML Denormalizer",
       techStack: ["Library", "Javascript", "Nodejs"],
       description: "Transforms JSON to HTML",
-      logo: YearProgressLogo,
       link: {
         label: "html-denormalizer github",
         href: "https://github.com/Plato-solutions/html-denormalizer",
@@ -270,7 +239,6 @@ export const RESUME_DATA = {
       techStack: ["IoT", "Raspberry Pi", "Python", "Php"],
       description:
         "A battery powerd smart alarm system with a simple UI and School Management System integrability",
-      logo: MonitoLogo,
       link: {
         label: "CleverBell",
         href: "https://github.com/nkrumahthis/clever-bell",
@@ -282,7 +250,6 @@ export const RESUME_DATA = {
       techStack: ["Android", "Java"],
       description:
         "An app for students to the plan/schedule of their day to day lectures and activities.",
-      logo: MonitoLogo,
       link: {
         label: "Timetab",
         href: "https://play.google.com/store/apps/details?id=glivion.timetab",
