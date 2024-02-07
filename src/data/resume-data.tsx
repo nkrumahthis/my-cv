@@ -29,7 +29,7 @@ export const RESUME_DATA = {
   about:
     "Software Engineer, 6yoe. Programming polyglot. Fintech, open-source, automation ninja",
   summary:
-    "Backend Engineer with 6+ years, building robust systems for growing companies. 2023 eCedi Hackathon finalist. Upgraded a crucial fintech server that handles significant throughput of transactions (now over $93 million daily on average and doubling each year). Maintainer of 3 Open Source packages. Focused on creating tools and automations for smooth development and maintenance amidst ongoing growth. Always eager to try new technologies. A programming language polyglot.",
+    "Backend Engineer with 6+ years, building robust systems for growing companies. 2023 eCedi Hackathon finalist. Upgraded a crucial fintech server that handles significant throughput of transactions (now over $93 million daily on average and doubling each year). Maintainer of 3 Open Source packages. Focused on creating tools and automations for smooth development and maintenance amidst ongoing growth. Always eager to try new technologies.",
   avatarUrl: "https://avatars.githubusercontent.com/u/42615665?v=4",
   personalWebsiteUrl: "https://nkrumahsarpong.com",
   blogUrl: "https://dev.to/nkrumahthis",
