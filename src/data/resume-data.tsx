@@ -134,18 +134,6 @@ export const RESUME_DATA = {
   ],
   projects: [
     {
-      title: "go-chain",
-      techStack: [
-        "CryptoCurrency",
-        "Go"
-      ],
-      description: "Blockchain implemented in Go",
-      link: {
-        label: "go-chain",
-        href: "https://github.com/nkrumahthis/go-chain",
-      },
-    },
-    {
       title: "Autocedi",
       techStack: [
         "CryptoCurrency",
@@ -159,40 +147,6 @@ export const RESUME_DATA = {
       link: {
         label: "autocedi",
         href: "https://autocedi-web.vercel.app/",
-      },
-    },
-    {
-      title: "Assorted Jollof",
-      techStack: [
-        "REST API",
-        "TypeScript",
-        "Rust",
-        "Go",
-        "PHP",
-        "Java",
-        "Python",
-        "Practice"
-      ],
-      description:
-        "One same basic REST api server. Rewritten in 6 languages: typescript, go, python, php, java and rust.",
-      link: {
-        label: "github.com",
-        href: "https://github.com/nkrumahthis/assorted-jollof",
-      },
-    },
-    {
-      title: "SLAPC",
-      techStack: [
-        "Side Project",
-        "Go",
-        "HTML",
-        "ssh",
-      ],
-      description:
-        "Easy interface to monitor logs and deploy new code for laravel servers",
-      link: {
-        label: "github slapc",
-        href: "https://github.com/nkrumahthis/slapc",
       },
     },
     {
