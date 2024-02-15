@@ -145,7 +145,6 @@ export default function Page() {
                   {work.description}
                   <br />
                   <ul className="m-2 list-disc">{work.achievements.map((achievement, idx) => (<li key={idx}>{achievement}</li>))}</ul>
-                  <p className="mt-2"><b>Technologies:</b> <span>{work.technologies.join(", ")}</span></p>
                 </CardContent>
               </Card>
             );

@@ -61,7 +61,6 @@ export const RESUME_DATA = {
         "Accelerated Zeepay deployments by hours per release using a custom CI/CD pipeline with GitHub Actions and Jenkins.",
         "Introduced Sentry for error logging and Docker for containerization, enhancing dev efficiency, code quality, and observability."
       ],
-      technologies: ["Laravel", "Php", "Vue", "Javascript", "Docker"],
       description:
         "Working at Ghana's top company (2022), maintaining and extending critical platforms processing over US$ 93 million in daily transactions."
     },
@@ -73,7 +72,6 @@ export const RESUME_DATA = {
       start: "2021",
       end: "2023",
       description: "Developed and architected full-stack software solutions, adhering to rigorous coding standards, testing methodologies, and Agile principles, while demonstrating expertise in REST APIs, GraphQL, Yii framework customization, and CI/CD usage.",
-      technologies: ["JavaScript", "Typescript", "PHP", "GraphQL", "Docker", "Yii2", "JIRA", "GitlabAPI", "Pipedrive API", "nodemation", "Devops"],
       achievements: [
         "Architected and implemented real-time ETL that streamlined live product data and media updates in Magento via REST and GraphQL APIs.",
         "Published open-source Node.js libraries (Scheduler Engine, HTML Denormalizer) and a composer library (Yii2 GraphQL), each with 2000+ installs.",
@@ -97,7 +95,6 @@ export const RESUME_DATA = {
         "Developed a wordpress/woocommerce store which generated US$100,000+ in sales over time",
         "Spearheaded innovative touch interactive smart board development (camera, Computer Vision) with interactive lessons - engaging novel product, potential revenue."
       ],
-      technologies: ["Python", "Java", "JavaScript", "PHP", "AR", "OpenCV", "Ionic 4", "Wordpress"],
       description:
         "Served as a sole and (later) lead developer of this startup, interfacing between the engineers and the business executives, onboarding other engineers and managing all interns",
     },
@@ -111,7 +108,6 @@ export const RESUME_DATA = {
       achievements: [
         "Demonstrated expertise in developing, debugging, and testing Android apps like TimeTab. We successfully scaled the app to over 5,000 users, but encountered a challenge when the keystore was lost. We reached 1,000 users again before ceasing development to pursue new projects."
       ],
-      technologies: ["Java", "Android", "Php", "SlimPhp"],
       description: "Tested products and implemented features and bugfixes, updated dependencies.",
     },
   ],
