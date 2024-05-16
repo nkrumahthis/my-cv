@@ -60,7 +60,7 @@ export const RESUME_DATA = {
         "Started 🎉"
       ],
       description:
-        "Improving the stability of the existing system to 99% fully successful automations, rearchitecting for 2x stability through optimization"
+        "Improving the stability of the existing system to 99% fully successful automations, rearchitecting for 2x scale through optimization"
     },
     {
       company: "Zeepay",
