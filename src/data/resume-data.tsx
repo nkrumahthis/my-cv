@@ -53,7 +53,7 @@ export const RESUME_DATA = {
       company: "Focaldata",
       link: "https://focaldata.com",
       badges: ["Remote"],
-      title: "Software",
+      title: "Software Engineer",
       start: "2024",
       end: "Present",
       achievements: [
