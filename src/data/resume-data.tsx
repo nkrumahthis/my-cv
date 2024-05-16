@@ -50,12 +50,25 @@ export const RESUME_DATA = {
   ],
   work: [
     {
+      company: "Focaldata",
+      link: "https://focaldata.com",
+      badges: ["Remote"],
+      title: "Software",
+      start: "2024",
+      end: "Present",
+      achievements: [
+        "Started 🎉"
+      ],
+      description:
+        "Improving the stability of the existing system to 99% fully successful automations, rearchitecting for 2x stability through optimization"
+    },
+    {
       company: "Zeepay",
       link: "https://myzeepay.com",
       badges: ["On-site"],
       title: "Senior Technology Manager (Band 1)",
       start: "2023",
-      end: "Present",
+      end: "2024",
       achievements: [
         "Upgraded Zeepay Ghana's core services from Laravel 6/7 to 10, enhancing security, performance and stability",
         "Accelerated Zeepay deployments by hours per release using a custom CI/CD pipeline with GitHub Actions and Jenkins.",
@@ -127,6 +140,8 @@ export const RESUME_DATA = {
     "Docker",
     "Jenkins",
     "Git",
+    "Python",
+    "Scala"
   ],
   projects: [
     {
