@@ -124,25 +124,39 @@ export const RESUME_DATA = {
       description: "Tested products and implemented features and bugfixes, updated dependencies.",
     },
   ],
-  skills: [
-    "JavaScript",
-    "Php",
-    "Laravel",
-    "TypeScript",
-    "Go",
-    "React",
-    "Vue",
-    "Node.js",
-    "GraphQL",
-    "REST",
-    "MySQL",
-    "AWS",
-    "Docker",
-    "Jenkins",
-    "Git",
-    "Python",
-    "Scala"
-  ],
+  skills: {
+    "languages": [
+      "JavaScript",
+      "Php",
+      "TypeScript",
+      "Go",
+      "Python",
+      "Scala"
+    ],
+    "frontend": [
+      "HTML", "React", "Vue"
+    ],
+    "frameworks": [
+      "Laravel",
+      "Next.js",
+    ],
+    "databases": [
+      "MySQL",
+      "PostgreSQL",
+      "MongoDB",
+    ],
+    "devops": [
+      "Jenkins",
+      "Docker",
+      "Github Actions",
+      "GitOps"
+    ],
+    "cloud": [
+      "Digital Ocean",
+      "AWS",
+      "GCP"
+    ]
+  },
   projects: [
     {
       title: "Autocedi",

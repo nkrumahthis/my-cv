@@ -101,10 +101,31 @@ export default function Page() {
 
         <Section>
           <h2 className="text-xl font-bold">Skills</h2>
-          <div className="flex flex-wrap gap-1">
-            {RESUME_DATA.skills.map((skill) => {
-              return <Badge key={skill} className="print:text-primary">{skill}</Badge>;
-            })}
+          <div className="flex flex-col gap-1">
+            <div className="flex flex-wrap gap-3">
+              <p className="font-semibold text-sm">Languages: </p>
+              <p className="font-mono text-sm">{RESUME_DATA.skills.languages.join(", ")}</p>
+            </div>
+            <div className="flex flex-wrap gap-3">
+              <p className="font-semibold text-sm">Frameworks:  </p>
+              <p className="font-mono text-sm">{RESUME_DATA.skills.frameworks.join(", ")}</p>
+            </div>
+            <div className="flex flex-wrap gap-3">
+              <p className="font-semibold text-sm">Frontend:  </p>
+              <p className="font-mono text-sm">{RESUME_DATA.skills.frontend.join(", ")}</p>
+            </div>
+            <div className="flex flex-wrap gap-3">
+              <p className="font-semibold text-sm">Databases:  </p>
+              <p className="font-mono text-sm">{RESUME_DATA.skills.databases.join(", ")}</p>
+            </div>
+            <div className="flex flex-wrap gap-3">
+              <p className="font-semibold text-sm">Devops:  </p>
+              <p className="font-mono text-sm">{RESUME_DATA.skills.devops.join(", ")}</p>
+            </div>
+            <div className="flex flex-wrap gap-3">
+              <p className="font-semibold text-sm">Cloud:  </p>
+              <p className="font-mono text-sm">{RESUME_DATA.skills.cloud.join(", ")}</p>
+            </div>
           </div>
         </Section>
 
