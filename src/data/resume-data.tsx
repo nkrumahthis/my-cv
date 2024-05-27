@@ -171,7 +171,7 @@ export const RESUME_DATA = {
       description: "Bank of Ghana Hackathon Finalist. A user friendly platform to automate payments using Ghana's CBDC: The eCedi.",
       link: {
         label: "autocedi",
-        href: "https://autocedi-web.vercel.app/",
+        href: "https://autocedi.com",
       },
     },
     {
