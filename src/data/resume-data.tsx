@@ -8,9 +8,9 @@ export const RESUME_DATA = {
   location: "Accra, Ghana, GMT",
   locationLink: "https://www.google.com/maps/place/Accra",
   about:
-    "Software Engineer, 6yoe. Full stack, backend focused.",
+    "Software Engineer, yyoe. Full stack, backend focused.",
   summary:
-    "Backend Engineer with 6+ years, building robust systems for growing companies. 2023 eCedi Hackathon finalist. Upgraded a crucial fintech server that handles significant throughput of transactions (now over $93 million daily on average and doubling each year). Maintainer of 3 Open Source packages. Focused on creating tools and automations for smooth development and maintenance amidst ongoing growth. Always eager to try new technologies.",
+    "Fullstack Engineer with 7 years, building robust systems for growing companies. 2023 eCedi Hackathon finalist. Upgraded a crucial fintech server that handles significant throughput of transactions (now over $93 million daily on average and doubling each year). Maintainer of 3 Open Source packages. Focused on creating tools and automations for smooth development and maintenance amidst ongoing growth. Always eager to try new technologies.",
   avatarUrl: "https://avatars.githubusercontent.com/u/42615665?v=4",
   personalWebsiteUrl: "https://nkrumahsarpong.com",
   blogUrl: "https://dev.to/nkrumahthis",
