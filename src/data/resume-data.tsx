@@ -53,14 +53,16 @@ export const RESUME_DATA = {
       company: "Focaldata",
       link: "https://focaldata.com",
       badges: ["Remote"],
-      title: "Software Engineer",
+      title: "Software Engineer, Core Stability and Growth Team",
       start: "2024",
       end: "Present",
       achievements: [
-        "Started 🎉"
+        "Improved observability by overhauling logging in two core Scala services, resulting in richer log data in Datadog and reducing developer time spent on issue resolution by 30% to 50%.",
+        "Played a key role in swiftly migrating our non-technical in-house researchers from API/CLI tools to a more intuitive, user friendly Retool web interface, backed by a lightweight Python service. This transition boosted usability, productivity, and satisfaction, leading to a 60% reduction in tool complaints within one month.",
+        "Enhanced proactive survey launch monitoring to detect failures early, providing actionable customer feedback, significantly reducing the occurrence of previously unobservable issues"
       ],
       description:
-        "Improving the stability of the existing system to 99% fully successful automations, rearchitecting for 2x scale through optimization"
+        "Identified and resolved critical survey issues, providing problem-free customer experiences, resulting in increased revenue retention."
     },
     {
       company: "Zeepay",
