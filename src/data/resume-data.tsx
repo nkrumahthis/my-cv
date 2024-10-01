@@ -219,7 +219,7 @@ export const RESUME_DATA = {
       title: "Clever Bell",
       techStack: ["IoT", "Raspberry Pi", "Python", "Php"],
       description:
-        "A battery powerd smart alarm system with a simple UI and School Management System integrability",
+        "A battery powered smart alarm system with a simple UI and School Management System integrability",
       link: {
         label: "CleverBell",
         href: "https://github.com/nkrumahthis/clever-bell",
