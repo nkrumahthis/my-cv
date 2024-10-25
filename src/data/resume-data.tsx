@@ -74,7 +74,8 @@ export const RESUME_DATA = {
       achievements: [
         "Upgraded Zeepay Ghana's core services from Laravel 6/7 to 10, enhancing security, performance and stability",
         "Accelerated Zeepay deployments by hours per release using a custom CI/CD pipeline with GitHub Actions and Jenkins.",
-        "Introduced Sentry for error logging and Docker for containerization, enhancing dev efficiency, code quality, and observability."
+        "Introduced Sentry for error logging and Docker for containerization, enhancing dev efficiency, code quality, and observability.",
+        "Led a peer training program to upskill a cross-functional team of developers, security, IT, and infrastructure professionals, enhancing overall team technical knowledge and productivity."
       ],
       description:
         "Working at Ghana's top company (2022), maintaining and extending critical platforms processing over US$ 93 million in daily transactions."
