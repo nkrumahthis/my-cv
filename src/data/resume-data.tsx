@@ -55,7 +55,7 @@ export const RESUME_DATA = {
       badges: ["Remote"],
       title: "Software Engineer, Core Stability and Growth Team",
       start: "2024",
-      end: "Present",
+      end: "2024",
       achievements: [
         "Improved observability by overhauling logging in two core Scala services, resulting in richer log data in Datadog and reducing developer time spent on issue resolution by 30% to 50%.",
         "Played a key role in swiftly migrating our non-technical in-house researchers from API/CLI tools to a more intuitive, user friendly Retool web interface, backed by a lightweight Python service. This transition boosted usability, productivity, and satisfaction, leading to a 60% reduction in tool complaints within one month.",
