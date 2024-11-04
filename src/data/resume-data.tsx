@@ -10,7 +10,7 @@ export const RESUME_DATA = {
   about:
     "Software Engineer, yyoe. Full stack, backend focused.",
   summary:
-    "Fullstack Engineer with 7 years, building robust systems for growing companies. 2023 eCedi Hackathon finalist. Upgraded a crucial fintech server that handles significant throughput of transactions (now over $93 million daily on average and doubling each year). Maintainer of 3 Open Source packages. Focused on creating tools and automations for smooth development and maintenance amidst ongoing growth. Always eager to try new technologies.",
+    "I am a software engineer with 6 years of experience building and maintaining tools and systems that drive customer success at Ghanaian, US, and UK-based startups. 2023 eCedi CBDC Hackathon finalist. Upgraded a critical fintech infrastructure that handles $93 million in daily transactions (100% year-over-year growth). My strengths lie in creative problem-solving, exploring, figuring things out and my ability to drive a project from concept to completion, helping shape product direction. I am passionate about using technology to make a real difference in the lives of both co-workers and customers through tools I build, improve and ship. I value exchanging genuine, constructive feedback.",
   avatarUrl: "https://avatars.githubusercontent.com/u/42615665?v=4",
   personalWebsiteUrl: "https://nkrumahsarpong.com",
   blogUrl: "https://dev.to/nkrumahthis",
