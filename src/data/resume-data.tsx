@@ -8,7 +8,7 @@ export const RESUME_DATA = {
   location: "Accra, Ghana, GMT",
   locationLink: "https://www.google.com/maps/place/Accra",
   about:
-    "Software Engineer, 6 yyoe. Full Stack.",
+    "Software Engineer, 6 yoe. Full Stack.",
   summary:
     "I am a software engineer with 6 years of experience building and maintaining tools and systems that drive customer success at Ghanaian, US, and UK-based startups. 2023 eCedi CBDC Hackathon finalist. Upgraded a critical fintech infrastructure that handles $93 million in daily transactions (100% year-over-year growth). My strengths lie in creative problem-solving, exploring, figuring things out and my ability to drive a project from concept to completion, helping shape product direction. I am passionate about using technology to make a real difference in the lives of both co-workers and customers through tools I build, improve and ship. I value exchanging genuine, constructive feedback.",
   avatarUrl: "https://avatars.githubusercontent.com/u/42615665?v=4",
