@@ -162,6 +162,23 @@ export const RESUME_DATA = {
   },
   projects: [
     {
+      title: "gh-parliament-ai",
+      techStack: [
+        "Python",
+        "TypeScript",
+        "React",
+        "Artificial Intelligence",
+        "AWS EC2",
+        "MongoDB",
+        "Pinecone vector database",
+      ],
+      description: "AI RAG that teaches you what is going on in Ghana's parliament",
+      link: {
+        label: "🇬🇭gh-parliament-ai",
+        href: "https://gh-parliament-ai.nkrumahsarpong.com",
+      },
+    },
+    {
       title: "Autocedi",
       techStack: [
         "CryptoCurrency",
@@ -224,17 +241,6 @@ export const RESUME_DATA = {
       link: {
         label: "CleverBell",
         href: "https://github.com/nkrumahthis/clever-bell",
-      },
-      
-    },
-    {
-      title: "Timetab",
-      techStack: ["Android", "Java"],
-      description:
-        "An app for students to the plan/schedule of their day to day lectures and activities.",
-      link: {
-        label: "Timetab",
-        href: "https://play.google.com/store/apps/details?id=glivion.timetab",
       },
       
     }
