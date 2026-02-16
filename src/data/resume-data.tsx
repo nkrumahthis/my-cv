@@ -50,6 +50,19 @@ export const RESUME_DATA = {
   ],
   work: [
     {
+      company: "Capi Money (YC23)",
+      link: "https://capimoney.com",
+      badges: ["Remote"],
+      title: "Software Engineer",
+      "start": "2025",
+      "end": "Present",
+      achievements: [
+        "Offer support for our core product, ensuring smooth operations and a seamless user experience.",
+        "Major contributor to the development of our internal tools, enhancing efficiency and streamlining workflows across teams.",
+      ],
+      description: "Writing code that helps African Businesses pay suppliers worldwide fast and easy"
+    },
+    {
       company: "Focaldata",
       link: "https://focaldata.com",
       badges: ["Remote"],
