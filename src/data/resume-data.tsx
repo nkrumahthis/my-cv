@@ -8,9 +8,9 @@ export const RESUME_DATA = {
   location: "Accra, Ghana, GMT",
   locationLink: "https://www.google.com/maps/place/Accra",
   about:
-    "Software Engineer, 6 yoe. Full Stack.",
+    "Full Stack Software Engineer, 8 yoe.",
   summary:
-    "I am a software engineer with 6 years of experience building and maintaining tools and systems that drive customer success at Ghanaian, US, and UK-based startups. 2023 eCedi CBDC Hackathon finalist. Upgraded a critical fintech infrastructure that handles $93 million in daily transactions (100% year-over-year growth). My strengths lie in creative problem-solving, exploring, figuring things out and my ability to drive a project from concept to completion, helping shape product direction. I am passionate about using technology to make a real difference in the lives of both co-workers and customers through tools I build, improve and ship. I value exchanging genuine, constructive feedback.",
+    "Full-stack software engineer with 8 years in modern web development (Typescript, PHP, Python) and cloud platforms (AWS, Google Cloud). Currently building cross-border fintech infrastructure. Managed systems processing $1.19B+ in transactions and served 120,000+ users. Strong track record driving high-impact projects across Ghana, US, and UK startups. Passionate about using technology to solve meaningful problems in finance.",
   avatarUrl: "https://avatars.githubusercontent.com/u/42615665?v=4",
   personalWebsiteUrl: "https://nkrumahsarpong.com",
   blogUrl: "https://dev.to/nkrumahthis",
@@ -57,10 +57,14 @@ export const RESUME_DATA = {
       "start": "2025",
       "end": "Present",
       achievements: [
-        "Offer support for our core product, ensuring smooth operations and a seamless user experience.",
-        "Major contributor to the development of our internal tools, enhancing efficiency and streamlining workflows across teams.",
+        "Built and shipped stablecoin payments end-to-end: USDC and USDT as supported currencies across customer app, API, and Ops. Designed a dynamic-beneficiary model routing through SWIFT, Stablecoin, or Alipay via a single architecture.",
+        "Delivered the Account Statements platform: PDF statement generation, monthly retrieval endpoints, Ops-facing UI, and 10+ bank ingestions (OmniBSIC, First Atlantic Bank Ghana, Maviance/ORIS Cameroon).",
+        "Built a deposit compliance pipeline as a Temporal workflow screening every deposit through Flagright, shipping beneficiary verification provider-agnostically.",
+        "Enabled the Ghana market end-to-end: stood up GHS as a platform currency, integrated 3+ partner bank statement ingestions, and enabled Ghana, Kenya, and G10 currencies as senders/recipients.",
+        "Authored the fx_conversions data model with reserve/release semantics, and built ledger module scaffold and Fragment ledger query for the rewards pipeline.",
+        "235 merged PRs, 171 peer reviews across 14 engineers, and 95 ticketed deliverables across 15 product projects.",
       ],
-      description: "Writing code that helps African Businesses pay suppliers worldwide fast and easy"
+      description: "Cross-border B2B payments platform serving African businesses. Processed ~$1.19B in GTV at a 1.0–1.1% take rate; grew quarterly revenue from $1.51M to $3.13M. Sole or lead IC across payment rails, compliance, statements, and FX."
     },
     {
       company: "Focaldata",
@@ -142,36 +146,36 @@ export const RESUME_DATA = {
   ],
   skills: {
     "languages": [
-      "JavaScript",
-      "Php",
       "TypeScript",
-      "Go",
+      "Php",
       "Python",
-      "Scala"
     ],
     "frontend": [
-      "HTML", "React", "Vue"
-    ],
-    "frameworks": [
-      "Laravel",
+      "React",
       "Next.js",
+      "Tailwind CSS",
+    ],
+    "backend": [
+      "Node.js",
+      "Express.js",
+      "FastAPI",
+      "Laravel",
+      "Temporal",
     ],
     "databases": [
       "MySQL",
       "PostgreSQL",
       "MongoDB",
-    ],
-    "devops": [
-      "Jenkins",
-      "Docker",
-      "Github Actions",
-      "GitOps"
+      "Redis",
     ],
     "cloud": [
-      "Digital Ocean",
       "AWS",
-      "GCP"
-    ]
+      "GCP",
+      "Digital Ocean",
+      "Docker",
+      "Github Actions",
+      "GitOps",
+    ],
   },
   projects: [
     {
